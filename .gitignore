@@ -1,0 +1,246 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking / linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+
+
+# ============================================================
+# Machine Learning / YOLO
+# ============================================================
+
+# Training outputs
+runs/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# ML experiment outputs
+wandb/
+mlruns/
+tensorboard/
+
+
+# ============================================================
+# Datasets
+# ============================================================
+
+# Do NOT commit the full medical-image dataset
+dataset/
+
+# If you want to keep the directory structure in Git,
+# create .gitkeep files inside required folders.
+
+
+# ============================================================
+# Uploaded / Generated Images
+# ============================================================
+
+uploads/
+storage/
+media/
+tmp/
+temp/
+
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# IMPORTANT:
+# If you want to commit specific example/demo images,
+# remove the image extensions above and instead ignore
+# only generated/uploaded image directories.
+
+
+# ============================================================
+# Node.js / Express
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.yarn/
+.pnpm-store/
+
+# Build output
+frontend/dist/
+frontend/build/
+backend/dist/
+
+
+# ============================================================
+# React / Frontend
+# ============================================================
+
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+.vite/
+.next/
+.nuxt/
+
+
+# ============================================================
+# Backend
+# ============================================================
+
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+
+# ============================================================
+# FastAPI ML Service
+# ============================================================
+
+ml-service/.venv/
+ml-service/__pycache__/
+ml-service/.pytest_cache/
+
+
+# ============================================================
+# Database
+# ============================================================
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# PostgreSQL local dumps / backups
+*.sql.gz
+*.dump
+*.backup
+
+
+# ============================================================
+# MinIO
+# ============================================================
+
+# Local MinIO data
+minio-data/
+data/minio/
+minio/
+
+
+# ============================================================
+# Redis
+# ============================================================
+
+redis-data/
+
+
+# ============================================================
+# Docker
+# ============================================================
+
+# Local Docker volumes
+docker-data/
+docker-volumes/
+
+
+# ============================================================
+# OS files
+# ============================================================
+
+# Linux
+*~
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ============================================================
+# IDE / Editors
+# ============================================================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+.idea/
+*.swp
+*.swo
+
+
+# ============================================================
+# Logs
+# ============================================================
+
+*.log
+logs/
+
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.cache
